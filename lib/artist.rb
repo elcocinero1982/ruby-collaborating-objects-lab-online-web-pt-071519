@@ -2,11 +2,11 @@ class Artist
 
   attr_accessor :name, :songs
 
-  @@all = [] #array of artists instances
+  @@all = [] 
 
   def initialize(name)#artist_name
     @name = name
-    @songs = [] #array of songs for each instance
+    @songs = [] 
   end
 
  
